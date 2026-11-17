@@ -1,0 +1,19 @@
+
+{
+    "name": "mohamed/backend-laravel",
+    "description": "Autochargement PSR-4 avec Composer - Exemple Banque",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Banque\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed"
+        }
+    ]
+}
